@@ -28,43 +28,43 @@ function Menu() {
               <li className="nav-item">
                 <a href="Mapel" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Mapel</p>
+                  <p>Data Mata Pelajaran</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="Rombel" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Ruang / Rombel</p>
+                  <p>Data Kelas</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="./index3.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Jam KBM</p>
+                  <p>Data Jam KBM</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="./index3.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>GTK</p>
+                  <p>Data GTK</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="./index3.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Guru Mapel</p>
+                  <p>Data Guru Mapel</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="./index3.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Jadwal KBM</p>
+                  <p>Data Jadwal KBM</p>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="./index3.html" className="nav-link">
                   <i className="far fa-circle nav-icon" />
-                  <p>Siswa</p>
+                  <p>Data Siswa</p>
                 </a>
               </li>
             </ul>
