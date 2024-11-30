@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tambah_rombel() {
+function Edit_rombel() {
   return (
     <>
       {/* Content Wrapper. Contains page content */}
@@ -10,14 +10,14 @@ function Tambah_rombel() {
           <div className="container-fluid">
             <div className="row mb-2">
               <div className="col-sm-6">
-                <h1>Tambah Kelas</h1>
+                <h1>Edit Kelas</h1>
               </div>
               <div className="col-sm-6">
                 <ol className="breadcrumb float-sm-right">
                   <li className="breadcrumb-item">
                     <a href="./Rombel">Data kelas</a>
                   </li>
-                  <li className="breadcrumb-item active">Tambah Kelas</li>
+                  <li className="breadcrumb-item active">Edit Kelas</li>
                 </ol>
               </div>
             </div>
@@ -31,9 +31,9 @@ function Tambah_rombel() {
               {/* left column */}
               <div className="col-md-12">
                 {/* general form elements */}
-                <div className="card card-primary">
+                <div className="card card-success">
                   <div className="card-header">
-                    <h3 className="card-title">Input Data Kelas</h3>
+                    <h3 className="card-title">Edit Data Kelas</h3>
                   </div>
                   {/* /.card-header */}
                   {/* form start */}
@@ -107,8 +107,8 @@ function Tambah_rombel() {
                     </div>
                     {/* /.card-body */}
                     <div className="card-footer">
-                      <a href="./Rombel" className="btn btn-primary mr-2">
-                        Tambah
+                      <a href="./Rombel" className="btn btn-success mr-2">
+                        Update
                       </a>
                       <a href="./Rombel" className="btn btn-warning">
                         Batal
@@ -131,4 +131,4 @@ function Tambah_rombel() {
   );
 }
 
-export default Tambah_rombel;
+export default Edit_rombel;

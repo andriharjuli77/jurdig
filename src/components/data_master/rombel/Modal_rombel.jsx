@@ -20,7 +20,7 @@ function Modal_rombel() {
             {/* start modal konten*/}
             <div className="modal-body">
               <table className="table table-striped">
-                <thead className="bg-primary text-light">
+                <thead className="bg-warning text-light">
                   <tr>
                     <th style={{ width: 10 }}>No</th>
                     <th>Nama Siswa</th>

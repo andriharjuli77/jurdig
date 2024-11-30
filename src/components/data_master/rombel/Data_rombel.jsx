@@ -27,13 +27,16 @@ function Data_rombel() {
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
-                <div className="card card card-primary card-outline">
+                <div className="card card card-info card-outline">
                   <div className="card-header">
-                    <h3 className="card-title">Data Kelas</h3>
+                    <h3 className="card-title">
+                      <i class="fab fa-instalod mr-1"></i>Data Kelas
+                    </h3>
                     <a
                       href="./Tambah_rombel"
                       class="btn btn-sm btn-primary float-right"
                     >
+                      <i class="fa fa-plus"></i>
                       Tambah Kelas
                     </a>
                   </div>
@@ -41,7 +44,7 @@ function Data_rombel() {
                   <div className="card-body">
                     <table
                       id="example1"
-                      className="table table-bordered table-striped"
+                      className="table table-condensed table-striped"
                     >
                       <thead className="text-center">
                         <tr>
@@ -71,6 +74,13 @@ function Data_rombel() {
                             >
                               <i class="fa fa-eye"></i>Anggota
                             </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
                             <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
@@ -95,6 +105,13 @@ function Data_rombel() {
                             >
                               <i class="fa fa-eye"></i>Anggota
                             </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
                             <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
@@ -119,6 +136,13 @@ function Data_rombel() {
                             >
                               <i class="fa fa-eye"></i>Anggota
                             </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
                             <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
@@ -128,7 +152,7 @@ function Data_rombel() {
                           </td>
                         </tr>
                       </tbody>
-                      <tfoot>
+                      <tfoot className="text-center">
                         <tr>
                           <th>No</th>
                           <th>Nama Kelas</th>

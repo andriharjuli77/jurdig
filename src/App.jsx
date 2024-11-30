@@ -6,8 +6,8 @@ import Mapel_view from "./pages/data_master/mapel/Mapel_view";
 import Tambah_mapel_view from "./pages/data_master/mapel/Tambah_mapel_view";
 import Edit_mapel_view from "./pages/data_master/mapel/Edit_mapel_view";
 import Rombel_view from "./pages/data_master/rombel/Rombel_view";
-import Tambah_rombel from "./components/data_master/rombel/Tambah_rombel";
 import Tambah_rombel_view from "./pages/data_master/rombel/Tambah_rombel_view";
+import Edit_rombel_view from "./pages/data_master/rombel/Edit_rombel_view";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       {/* Data Kelas */}
       <Route path="/Rombel" element={<Rombel_view />} />
       <Route path="/Tambah_rombel" element={<Tambah_rombel_view />} />
+      <Route path="/Edit_rombel" element={<Edit_rombel_view />} />
     </Routes>
   );
 }
