@@ -1,4 +1,5 @@
 import React from "react";
+import Tambah_gtk from "./Tambah_gtk";
 
 function Data_gtk() {
   return (
@@ -53,13 +54,14 @@ function Data_gtk() {
                       <i class="fa fa-users mr-1"></i>Data Guru dan Tenaga
                       Kependidikan
                     </h3>
-                    <a
-                      href="./Tambah_rombel"
+                    <button
+                      type="button"
                       class="btn btn-sm btn-primary float-right"
+                      data-toggle="modal"
+                      data-target="#modal-tambah-gtk"
                     >
-                      <i class="fa fa-plus"></i>
-                      Tambah GTK
-                    </a>
+                      <i class="fa fa-plus"></i>Tambah GTK
+                    </button>
                   </div>
                   {/* /.card-header */}
                   <div className="card-body">
@@ -286,6 +288,7 @@ function Data_gtk() {
         {/* /.content */}
       </div>
       {/* /.content-wrapper */}
+      <Tambah_gtk />
     </div>
   );
 }
