@@ -8,6 +8,7 @@ import Edit_mapel_view from "./pages/data_master/mapel/Edit_mapel_view";
 import Rombel_view from "./pages/data_master/rombel/Rombel_view";
 import Tambah_rombel_view from "./pages/data_master/rombel/Tambah_rombel_view";
 import Edit_rombel_view from "./pages/data_master/rombel/Edit_rombel_view";
+import Gtk_view from "./pages/data_master/gtk/Gtk_view";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Route path="/Rombel" element={<Rombel_view />} />
       <Route path="/Tambah_rombel" element={<Tambah_rombel_view />} />
       <Route path="/Edit_rombel" element={<Edit_rombel_view />} />
+      {/* Data Gtk */}
+      <Route path="/Gtk" element={<Gtk_view />} />
     </Routes>
   );
 }

@@ -1,4 +1,12 @@
 tbody td {
-    padding: 10px;
-    text-align: center; /* Agar isi tabel juga rata tengah */
+  padding: 10px;
+  text-align: center; /* Agar isi tabel juga rata tengah */
+}
+
+.img-circle {
+  width: 100px; /* Sesuaikan ukuran */
+  height: 100px; /* Sama dengan lebar untuk lingkaran sempurna */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Menjaga proporsi gambar */
+  overflow: hidden;
 }

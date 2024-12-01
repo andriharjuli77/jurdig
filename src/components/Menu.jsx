@@ -54,7 +54,7 @@ function Menu() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="./index3.html" className="nav-link">
+                    <a href="Gtk" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Data GTK</p>
                     </a>
