@@ -44,7 +44,7 @@ function Data_rombel() {
                   <div className="card-body">
                     <table
                       id="example1"
-                      className="table table-condensed table-striped"
+                      className="table table-condensed table-striped table-hover"
                     >
                       <thead className="text-center">
                         <tr>
@@ -58,6 +58,285 @@ function Data_rombel() {
                         </tr>
                       </thead>
                       <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>X TJKT 1</td>
+                          <td>10</td>
+                          <td>Teknik Jaringan Komputer Telekomunikasi</td>
+                          <td>Andri Harjuli</td>
+                          <td>40</td>
+                          <td>
+                            <button
+                              type="button"
+                              class="btn btn-outline-warning btn-sm mr-2"
+                              data-toggle="modal"
+                              data-target="#modal-lg"
+                            >
+                              <i class="fa fa-eye"></i>Anggota
+                            </button>
+                            <a
+                              href="./Edit_rombel"
+                              class="btn btn-outline-success btn-sm mr-2"
+                            >
+                              <i i class="fa fa-edit"></i>
+                              Edit
+                            </a>
+                            <button
+                              type="button"
+                              class="btn btn-outline-danger btn-sm"
+                            >
+                              <i i class="fa fa-trash"></i>Hapus
+                            </button>
+                          </td>
+                        </tr>
                         <tr>
                           <td>1</td>
                           <td>X TJKT 1</td>
